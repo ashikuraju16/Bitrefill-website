@@ -1,0 +1,31 @@
+body {
+  margin-top: 6rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-div {
+  display: flex;
+}
+
+.header-icon {
+  font-size: large;
+  font-size: bold;
+  margin-right: 30px;
+  padding: 12px 14px;
+  border-radius: 4px;
+
+  background-color: plum;
+}
+.header-cart-text {
+  font-size: large;
+  font-weight: bold;
+  padding: 12px 14px;
+  border-radius: 4px;
+  background-color: chartreuse;
+}
