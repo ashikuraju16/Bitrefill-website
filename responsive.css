@@ -1,4 +1,5 @@
-@media screen and (max-width: 430px) {
+/* mobile devices */
+@media screen and (max-width: 600px) {
   body {
     margin-top: 3rem;
   }
@@ -22,5 +23,41 @@
   .value {
     font-size: 30px;
     color: purple;
+  }
+}
+
+/* medium devices */
+
+@media screen and (max-width: 1030px) and (min-width: 600px) {
+  body {
+    margin-top: 5rem;
+  }
+  .section-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .twitch {
+    font-size: 58px;
+    font-weight: 900;
+    padding: 15px;
+  }
+
+  .iteams-div {
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .img {
+    margin-top: 16px;
+    width: 96%;
+    padding: 15px 15px;
+  }
+
+  .value {
+    font-size: 50px;
+    color: purple;
+    padding: 15px;
   }
 }
