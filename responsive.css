@@ -1,4 +1,5 @@
-/* mobile devices */
+/*.......... mobile devices.......... */
+
 @media screen and (max-width: 600px) {
   body {
     margin-top: 3rem;
@@ -12,23 +13,21 @@
     font-weight: 900;
     margin-top: 4px;
   }
-
   .iteams-div {
     margin-top: 20px;
     background-color: #ddd;
     padding: 20px;
     border-radius: 20px;
   }
-
   .value {
     font-size: 30px;
     color: purple;
   }
 }
 
-/* medium devices */
+/* ............medium devices ..............*/
 
-@media screen and (max-width: 1030px) and (min-width: 600px) {
+@media screen and (max-width: 1120px) and (min-width: 600px) {
   body {
     margin-top: 5rem;
   }
@@ -41,7 +40,6 @@
     font-weight: 900;
     padding: 15px;
   }
-
   .iteams-div {
     margin-top: 40px;
     margin-left: 20px;
@@ -54,7 +52,6 @@
     width: 96%;
     padding: 15px 15px;
   }
-
   .value {
     font-size: 50px;
     color: purple;
